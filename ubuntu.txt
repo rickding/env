@@ -1,0 +1,10 @@
+ls -al ./
+
+cat /etc/group
+chown 
+
+chmod a+w -R ./
+chmod +x *.sh
+
+#!/bin/bash
+
