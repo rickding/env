@@ -3,7 +3,7 @@ ls -al ./
 cat /etc/hosts
 
 cat /etc/group
-chown 
+chown -R 999 ./
 
 chmod a+w -R ./
 chmod +x *.sh
@@ -22,3 +22,31 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 150
 
 apt-get install python3-pip
 
+
+# docker
+https://yq.aliyun.com/articles/625340
+https://www.cnblogs.com/huangaojiao/p/9159772.html
+https://blog.csdn.net/whan8080/article/details/80150970
+
+which curl
+apt-get update
+apt-get install curl
+
+apt-get install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+apt-key fingerprint 0EBFCD88
+
+add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu  xenial  stable"
+
+apt-get update
+apt-get -y install docker-ce
+
+
+# snap
+snap install docker
+
+
+# docker-compose
+pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com docker-compose
+
+alias cmps=docker-compose
