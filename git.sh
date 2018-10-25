@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ls -al ~/.ssh
 
 ssh-keygen -t rsa -b 4096 -C "dingxl18@qq.com"
@@ -10,4 +12,3 @@ clip < ~/.ssh/id_rsa.pub
 
 ssh -T git@gitee.com
 ssh -T git@github.com
-
