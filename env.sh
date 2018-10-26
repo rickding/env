@@ -26,6 +26,5 @@ python -m pip install -i http://pypi.douban.com/simple --trusted-host pypi.douba
 pip -V
 
 # docker-compose
-# apt-get -y install docker-compose
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com docker-compose
 alias cmps=docker-compose
