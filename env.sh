@@ -28,7 +28,3 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 150
 apt-get -y install python3-pip
 python -m pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade pip
 pip -V
-
-# git
-git config --global user.email "dingxl18@qq.com"
-git config --global user.name "dingxl"
