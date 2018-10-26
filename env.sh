@@ -15,10 +15,6 @@ apt-get -y install docker-ce
 # docker from snap
 # snap install docker
 
-# docker-compose
-apt-get -y install docker-compose
-alias cmps=docker-compose
-
 # python3
 apt-get -y install python3
 update-alternatives --install /usr/bin/python python /usr/bin/python2 100
@@ -28,3 +24,8 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 150
 apt-get -y install python3-pip
 python -m pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade pip
 pip -V
+
+# docker-compose
+# apt-get -y install docker-compose
+pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com docker-compose
+alias cmps=docker-compose
