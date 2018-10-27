@@ -1,16 +1,25 @@
-#!/bin/bash
+# Facet
+- dba: Facet
+- api: Facade
+- srv: alib
+- web-admin: Face
 
-chmod a+w -R ./
-chmod +x *.sh
+- Celery
 
-ps -ef
+- MySQL
+- Redis
+- RabbitMQ
 
-netstat -ntlp
-ifconfig
 
-cat /etc/hosts
+# Tech:
+- gitee.com/github.com, GitBash/SourceTree
+- Aliyun, Ubuntu, Docker
 
-# owner and user group
-ls -al ./
-cat /etc/group
-chown -R 999 ./
+- Jira, Fecru(Fisheye + Crucible)
+
+- Django: dba (PyCharm, Python, MySQL)
+- SpringBoot: api (IDEA, Java, MyBatis, Redis, RabbitMQ, JUnit, Postman)
+
+- Maven
+- Jenkins, admin/superuser, 4958cff2610544ba8d3d072605761c67
+- http://localhost:8080/

@@ -28,3 +28,6 @@ pip -V
 # docker-compose
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com docker-compose
 alias cmps=docker-compose
+
+# tools
+apt -y install net-tools
