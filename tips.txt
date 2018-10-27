@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# docker
+alias cmps = docker-compose
+cmps -ps
+cmps logs
+
+docker ps
+
+# linux: ubuntu
 chmod a+w -R ./
 chmod +x *.sh
 
