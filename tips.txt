@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # docker
-alias cmps = docker-compose
-cmps -ps
-cmps logs
+alias dcmp = docker-compose
+dcmp -ps
+dcmp logs
 
 docker ps
 
