@@ -26,3 +26,12 @@ cat /etc/hosts
 ls -al ./
 cat /etc/group
 chown -R 999 ./
+
+# visual studio code: max files to watch in file changes in this large workspace
+# https://blog.csdn.net/davidhopper/article/details/79620425
+cat /proc/sys/fs/inotify/max_user_watches
+
+vi /etc/sysctl.conf
+# last line: fs.inotify.max_user_watches=81920
+
+sysctl -p
