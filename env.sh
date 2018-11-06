@@ -33,10 +33,15 @@ pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com dock
 alias dcmp=docker-compose
 
 
+# tools
+apt -y install net-tools
+
+
+# java
+apt install -y maven
+apt install -y openjdk-8-jdk-headless
+
+
 # node
 apt -y install npm
 npm install http-server -g
-
-
-# tools
-apt -y install net-tools
