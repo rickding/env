@@ -7,25 +7,31 @@ dcmp logs
 
 docker ps
 
+
 # linux: ubuntu
 chmod a+w -R ./
 chmod +x *.sh
-
-ps -ef
 
 rm -rf xxx
 cp
 mv
 
-netstat -ntlp
-ifconfig
 
+# network
 cat /etc/hosts
+
+ifconfig
+netstat -ntlp
+
+ps -ef | grep nginx
+kill pid
+
 
 # owner and user group
 ls -al ./
 cat /etc/group
 chown -R 999 ./
+
 
 # visual studio code: max files to watch in file changes in this large workspace
 # https://blog.csdn.net/davidhopper/article/details/79620425

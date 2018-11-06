@@ -3,6 +3,7 @@
 apt-get autoremove -y
 apt-get update
 
+
 # docker
 apt-get -y install apt-transport-https ca-certificates curl software-properties-common
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
@@ -15,6 +16,7 @@ apt-get -y install docker-ce
 # docker from snap
 # snap install docker
 
+
 # python3
 apt-get -y install python3
 update-alternatives --install /usr/bin/python python /usr/bin/python2 100
@@ -25,9 +27,16 @@ apt-get -y install python3-pip
 python -m pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com --upgrade pip
 pip -V
 
+
 # docker-compose
 pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com docker-compose
 alias dcmp=docker-compose
+
+
+# node
+apt -y install npm
+npm install http-server -g
+
 
 # tools
 apt -y install net-tools
