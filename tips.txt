@@ -3,7 +3,7 @@
 # docker
 alias dcmp = docker-compose
 dcmp -ps
-dcmp logs
+dcmp logs -f
 
 docker ps
 
