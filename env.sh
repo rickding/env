@@ -42,7 +42,7 @@ apt install -y maven
 apt install -y openjdk-8-jdk-headless
 
 
-# node
+# node: http://npm.taobao.org/
 apt -y install npm
 # npm install -g http-server
 

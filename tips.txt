@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # docker
-alias dcmp = docker-compose
+alias dcmp=docker-compose
 dcmp -ps
 dcmp logs -f
 
 docker ps
+docker logs xxx
 
 
 # linux: ubuntu
@@ -13,8 +14,8 @@ chmod a+w -R ./
 chmod +x *.sh
 
 rm -rf xxx
-cp
-mv
+cp xxx xxx
+mv xxx xxx
 
 
 # network
