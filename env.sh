@@ -44,4 +44,8 @@ apt install -y openjdk-8-jdk-headless
 
 # node
 apt -y install npm
-npm install http-server -g
+# npm install -g http-server
+
+# cnpm: http://npm.taobao.org/
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install -g http-server
