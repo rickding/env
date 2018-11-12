@@ -35,6 +35,7 @@ alias dcmp=docker-compose
 
 # tools
 apt -y install net-tools
+apt -y install python3-tk
 
 
 # java
@@ -46,6 +47,6 @@ apt install -y openjdk-8-jdk-headless
 apt -y install npm
 # npm install -g http-server
 
-# cnpm: http://npm.taobao.org/
+# node with cnpm: http://npm.taobao.org/
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install -g http-server

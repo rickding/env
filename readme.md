@@ -13,8 +13,8 @@
 
 # Tech stack:
 - gitee.com, github.com, GitBash/SourceTree
-- Aliyun, Ubuntu
-- Docker
+- Aliyun, Ubuntu, Nginx
+- Docker, Compose, Swarm
 
 - Django: dba(PyCharm, Python, MySQL), srv(Celery, Redis, RabbitMQ)
 - SpringBoot: api(IDEA, Java, MyBatis, Redis, RabbitMQ, JUnit, Postman, Maven)
