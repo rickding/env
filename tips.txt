@@ -18,6 +18,13 @@ cp xxx xxx
 mv xxx xxx
 
 
+# ~/.bashrc
+alias
+PATH
+
+source ~/.bashrc
+
+
 # network
 cat /etc/hosts
 
