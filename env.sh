@@ -6,7 +6,6 @@ apt -y install software-properties-common
 
 # specified repositories or gedit /etc/apt/sources.list
 add-apt-repository "deb https://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse"
-add-apt-repository "deb http://mirrors.163.com/ubuntu/ precise main universe restricted multiverse"
 apt update
 
 
