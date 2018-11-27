@@ -8,3 +8,5 @@ docker network prune
 docker network ls
 docker images
 docker container ps
+
+docker info

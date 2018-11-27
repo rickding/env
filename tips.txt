@@ -2,11 +2,11 @@
 
 # docker
 alias dcmp=docker-compose
-dcmp -ps
+dcmp ps
 dcmp logs -f
 
 docker ps
-docker logs xxx
+docker logs xxx -f
 
 # docker for windows
 Set-NetConnectionProfile -interfacealias "vEthernet (DockerNAT)" -NetworkCategory Private
@@ -54,7 +54,18 @@ vi /etc/sysctl.conf
 sysctl -p
 
 
-# Docker image accelerate
+# apt source
+gedit /etc/apt/sources.list
+
+
+# pip source
+# https://blog.csdn.net/gzhouc/article/details/65448350
+# http://pypi.douban.com/simple
+# http://mirrors.aliyun.com/pypi/simple/
+pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com -r requirements.txt
+
+
+# Docker image
 http://www.cnblogs.com/wushuaishuai/p/9984228.html
 
 mkdir -p /etc/docker
@@ -66,14 +77,3 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 Or: vim /usr/lib/systemd/system/docker.service
 Add the sentence:
 ExecStart=/usr/bin/dockerd --registry-mirror=http://hub-mirror.c.163.com
-
-
-# pip source
-# https://blog.csdn.net/gzhouc/article/details/65448350
-# http://pypi.douban.com/simple
-# http://mirrors.aliyun.com/pypi/simple/
-pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com -r requirements.txt
-
-
-# apt source
-gedit /etc/apt/sources.list
