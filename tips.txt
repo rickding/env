@@ -49,3 +49,7 @@ vi /etc/sysctl.conf
 # last line: fs.inotify.max_user_watches=81920
 
 sysctl -p
+
+
+# docker for windows
+Set-NetConnectionProfile -interfacealias "vEthernet (DockerNAT)" -NetworkCategory Private
