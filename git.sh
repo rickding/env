@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt -y install git
+
 # add key
 ls -al ~/.ssh
 
