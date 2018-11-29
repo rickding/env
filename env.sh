@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt -y install git
+
 apt autoremove -y
 apt update
 apt -y install software-properties-common
