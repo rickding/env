@@ -13,6 +13,8 @@ Set-NetConnectionProfile -interfacealias "vEthernet (DockerNAT)" -NetworkCategor
 
 
 # linux: ubuntu
+sudo passwd
+
 chmod a+w -R ./
 chmod +x *.sh
 
