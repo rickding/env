@@ -1,7 +1,7 @@
 # Env
 - dba:8000
 - api:8011
-- admin:8010
+- web-admin:8010
 
 - srv:8001
 - task: Celery, task_mgr:5555

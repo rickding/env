@@ -1,10 +1,6 @@
 #!/bin/bash
 
 # docker
-alias dcmp=docker-compose
-dcmp ps
-dcmp logs -f
-
 docker ps
 docker logs xxx -f
 
@@ -46,6 +42,7 @@ chown -R 999 ./
 tar cjf - logs/ | split -b 30m - logs.tar.bz2.
 cat logs.tar.bz2.a* | tar xj
 
+
 # visual studio code: max files to watch in file changes in this large workspace
 # https://blog.csdn.net/davidhopper/article/details/79620425
 cat /proc/sys/fs/inotify/max_user_watches
@@ -67,7 +64,7 @@ gedit /etc/apt/sources.list
 pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com -r requirements.txt
 
 
-# Docker image
+# Docker image mirror
 http://www.cnblogs.com/wushuaishuai/p/9984228.html
 
 mkdir -p /etc/docker
