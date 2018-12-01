@@ -66,8 +66,12 @@ pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.ali
 
 # Docker image mirror
 http://www.cnblogs.com/wushuaishuai/p/9984228.html
-http://hub-mirror.c.163.com
+https://www.docker-cn.com/registry-mirror
+
+https://registry.docker-cn.com
+http://f1361db2.m.daocloud.io
 https://8oczc83z.mirror.aliyuncs.com
+http://hub-mirror.c.163.com
 
 mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
