@@ -64,7 +64,7 @@ gedit /etc/apt/sources.list
 pip install -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com -r requirements.txt
 
 
-# Docker image mirror
+# Docker mirror
 http://www.cnblogs.com/wushuaishuai/p/9984228.html
 https://www.docker-cn.com/registry-mirror
 
@@ -78,7 +78,17 @@ sudo tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["https://8oczc83z.mirror.aliyuncs.com"]
 }
+EOF
 
 Or: vim /usr/lib/systemd/system/docker.service
 Add the sentence:
 ExecStart=/usr/bin/dockerd --registry-mirror=https://8oczc83z.mirror.aliyuncs.com
+
+
+# Docker image
+docker login --username=xxx registry.cn-shanghai.aliyuncs.com
+
+docker tag xxx registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
+docker push registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
+
+docker pull registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
