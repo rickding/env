@@ -88,7 +88,8 @@ ExecStart=/usr/bin/dockerd --registry-mirror=https://8oczc83z.mirror.aliyuncs.co
 # Docker image
 docker login --username=xxx registry.cn-shanghai.aliyuncs.com
 
-docker tag xxx registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
-docker push registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
+docker commit xxx xxx:latest
+docker tag xxx:latest registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
+docker push registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
 
-docker pull registry.cn-shanghai.aliyuncs.com/ddsrv/api:xxx
+docker pull registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
