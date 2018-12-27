@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# apt update
+# apt -y install software-properties-common
+
 # https://www.cnblogs.com/bluestorm/p/5677625.html
 
 # oracle openjdk
@@ -13,9 +16,9 @@ apt-get install -y openjdk-8-jdk-headless
 add-apt-repository ppa:webupd8team/java
 apt-get update
 
-apt-get install oracle-java6-installer
-apt-get install oracle-java7-installer
-apt-get install oracle-java8-installer
+apt-get install -y oracle-java6-installer
+apt-get install -y oracle-java7-installer
+apt-get install -y oracle-java8-installer
 
 update-java-alternatives --list
 
