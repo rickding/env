@@ -1,3 +1,5 @@
+@echo off
+
 rem vcpkg: https://github.com/Microsoft/vcpkg
 rem git clone https://github.com/Microsoft/vcpkg.git
 
