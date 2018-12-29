@@ -1,6 +1,6 @@
 @echo off
 
-set PATH=%PATH%;%cd%
+set PATH=%PATH%;%cd%\bin
 PATH
 
 aliyun auto-completion
