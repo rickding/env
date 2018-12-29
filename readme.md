@@ -27,6 +27,22 @@
 - http://localhost:8080/
 
 
+# Cloud: cli, AccessKey ID/Secret, https://help.aliyun.com/document_detail/90765.html
+aliyun configure
+aliyun configure list
+aliyun configure --profile user1
+
+aliyun auto-completion
+aliyun auto-completion --uninstall
+
+aliyun help
+aliyun help ecs
+aliyun help ecs CreateInstance
+
+aliyun ecs DescribleRegions
+aliyun cs GET /clusters
+
+
 # https
 server {
     listen 443;
