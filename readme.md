@@ -28,8 +28,8 @@
 
 
 # Cli
-https://help.aliyun.com/document_detail/90765.html
-https://help.aliyun.com/document_detail/72378.html
+https://help.aliyun.com/document_detail/66653.html
+https://github.com/aliyun/aliyun-cli
 
 aliyun configure
 aliyun configure list
