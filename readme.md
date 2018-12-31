@@ -27,25 +27,6 @@
 - http://localhost:8080/
 
 
-# Cli
-https://help.aliyun.com/document_detail/66653.html
-https://github.com/aliyun/aliyun-cli
-
-aliyun configure
-aliyun configure list
-aliyun configure --profile user1
-
-aliyun auto-completion
-aliyun auto-completion --uninstall
-
-aliyun help
-aliyun help ecs
-aliyun help ecs CreateInstance
-
-aliyun ecs DescribleRegions
-aliyun cs GET /clusters
-
-
 # https
 server {
     listen 443;

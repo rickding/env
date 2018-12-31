@@ -1,6 +1,5 @@
-@echo off
+# docker container: eci
 
-rem docker container: eci
 aliyun eci DescribeContainerGroups
 aliyun eci DescribeContainerLog
 aliyun eci CreateContainerGroup

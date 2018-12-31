@@ -9,8 +9,10 @@ aliyun configure list
 
 rem aliyun configure
 rem region id: cn-hangzhou, cn-shanghai
+rem region id: cn-shanghai-a, cn-shanghai-f
 
 aliyun ecs DescribeRegions
+aliyun ecs DescribeZones --RegionId cn-shanghai
 aliyun ecs DescribeInstances
 aliyun ecs DescribeInstances --output cols=InstanceId,Status
 
