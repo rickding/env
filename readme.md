@@ -27,7 +27,10 @@
 - http://localhost:8080/
 
 
-# Cloud: cli, AccessKey ID/Secret, https://help.aliyun.com/document_detail/90765.html
+# Cli
+https://help.aliyun.com/document_detail/90765.html
+https://help.aliyun.com/document_detail/72378.html
+
 aliyun configure
 aliyun configure list
 aliyun configure --profile user1
