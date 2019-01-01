@@ -1,3 +1,3 @@
-eci.bat@echo off
+@echo off
 
 aliyun eci DescribeContainerGroups --RegionId cn-shanghai
