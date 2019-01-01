@@ -15,7 +15,7 @@ aliyun eci CreateContainerGroup ^
   --ContainerGroupName jira ^
   --RegionId cn-shanghai ^
   --ZoneId cn-shanghai-a ^
-  --SecurityGroupId sg-uf6f775x5cf6xgzl2zod ^
+  --SecurityGroupId sg-uf60ng4pfttd9glnod58 ^
   --VSwitchId vsw-uf69vfkf55j079f22k0zr ^
   --RestartPolicy Always ^
   --Container.1.Name jira ^
