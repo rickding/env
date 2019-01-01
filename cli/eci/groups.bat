@@ -1,3 +1,4 @@
 @echo off
 
-aliyun eci DescribeContainerGroups --RegionId cn-shanghai
+aliyun eci DescribeContainerGroups ^
+  --RegionId cn-shanghai
