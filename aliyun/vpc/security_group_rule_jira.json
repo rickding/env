@@ -1,0 +1,13 @@
+[{
+	"SourceCidrIp": "0.0.0.0/0",
+	"PortRange": "20030/20031",
+	"Direction": "ingress",
+	"IpProtocol": "TCP",
+	"Policy": "Accept"
+}, {
+	"SourceCidrIp": "0.0.0.0/0",
+	"PortRange": "443/443",
+	"Direction": "ingress",
+	"IpProtocol": "TCP",
+	"Policy": "Accept"
+}]
