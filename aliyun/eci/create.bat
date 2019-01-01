@@ -12,10 +12,10 @@ aliyun eci CreateContainerGroup ^
   --SecurityGroupId sg-uf6f775x5cf6xgzl2zod ^
   --VSwitchId vsw-uf69vfkf55j079f22k0zr ^
   --RestartPolicy Always ^
-  --Container.1.Name wls10jdk7 ^
-  --Container.1.Image registry-vpc.cn-shanghai.aliyuncs.com/hellodock/weblogic10_jdk7:latest ^
+  --Container.1.Name jira ^
+  --Container.1.Image registry-vpc.cn-shanghai.aliyuncs.com/hellodock/jira:7.12.3 ^
   --Container.1.ImagePullPolicy IfNotPresent ^
   --Container.1.Cpu 1 ^
   --Container.1.Memory 2 ^
   --Container.1.Port.1.Protocol TCP ^
-  --Container.1.Port.1.Port 7001 ^
+  --Container.1.Port.1.Port 20030 ^
