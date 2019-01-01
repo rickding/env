@@ -2,4 +2,4 @@
 
 aliyun eci DeleteContainerGroup ^
   --RegionId cn-shanghai ^
-  --ContainerGroupId eci-uf6cwxz1grjjazuc7dz4
+  --ContainerGroupId eci-uf6ge5meicbpj018nsfo
