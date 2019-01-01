@@ -1,9 +1,15 @@
 @echo off
 
+rem https://help.aliyun.com/document_detail/91333.html
 rem aliyun help eci CreateContainerGroup
 
 rem {"ContainerGroupId":"eci-uf6ddjhfcjtqukiqzk4g","RequestId":"1498FC71-17FC-4052-925D-D2A61D3DC489"}
 rem --EipInstanceId
+rem --Container.1.WorkingDir
+rem --Container.1.Commands.1
+rem --Container.1.Args.1
+rem --Container.1.EnvironmentVar.1.Key
+rem --Container.1.EnvironmentVar.1.Value
 
 aliyun eci CreateContainerGroup ^
   --ContainerGroupName jira ^

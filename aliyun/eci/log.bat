@@ -2,6 +2,6 @@
 
 aliyun eci DescribeContainerLog ^
   --RegionId cn-shanghai ^
-  --ContainerGroupId eci-uf6ddjhfcjtqukiqzk4g ^
-  --ContainerName wls10jdk7 ^
+  --ContainerGroupId eci-uf6ge5meicbphcuba561 ^
+  --ContainerName jira ^
   --Tail
