@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# export PATH=$PATH:$PWD/bin
-echo $PATH
+# export PATH=$PATH:$PWD/lib
+# echo $PATH
 
 # vi /root/.bashrc
-# export PATH="$PATH:/data/work/env/aliyun/bin"
+# export PATH="$PATH:/data/work/env/aliyun/lib"
 
 # aliyun help
 aliyun auto-completion

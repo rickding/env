@@ -1,6 +1,6 @@
 @echo off
 
-set PATH=%PATH%;%cd%\bin
+rem set PATH=%PATH%;%cd%\bin
 rem PATH
 
 rem aliyun help
