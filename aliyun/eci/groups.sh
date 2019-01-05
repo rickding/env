@@ -2,4 +2,4 @@
 
 aliyun eci DescribeContainerGroups \
   --RegionId cn-shanghai \
-  | grep --color -i -e TotalCount -e ContainerGroupId
+  | grep --color -i -e TotalCount -e ContainerGroupId -e Name -e ip

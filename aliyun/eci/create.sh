@@ -2,6 +2,7 @@
 
 # https://help.aliyun.com/document_detail/91333.html
 # aliyun help eci CreateContainerGroup
+# IntranetIp: 172.19.0.51
 
 # {"ContainerGroupId":"eci-uf6ddjhfcjtqukiqzk4g","RequestId":"1498FC71-17FC-4052-925D-D2A61D3DC489"}
 # --EipInstanceId
