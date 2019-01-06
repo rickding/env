@@ -2,7 +2,7 @@
 
 aliyun eci DescribeContainerLog \
   --RegionId cn-shanghai \
-  --ContainerGroupId eci-uf6ge5meicbpt51yhxxd \
-  --ContainerName jira \
+  --ContainerGroupId eci-uf68ar6cfj9py302vb9m \
+  --ContainerName nginx \
   --Tail \
   | grep --color -i -e error -e warn -e version

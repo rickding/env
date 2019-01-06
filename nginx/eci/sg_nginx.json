@@ -1,6 +1,6 @@
 [{
 	"SourceCidrIp": "0.0.0.0/0",
-	"PortRange": "7001/7002",
+	"PortRange": "80/80",
 	"Direction": "ingress",
 	"IpProtocol": "TCP",
 	"Policy": "Accept"
