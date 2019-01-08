@@ -10,8 +10,7 @@ aliyun vpc DescribeVSwitches \
   --output cols=ZoneId,VSwitchId,VSwitchName,VpcId,ResourceGroupId,Description
 
 aliyun vpc DescribeEipAddresses \
-  --RegionId cn-shanghai \
-  --output cols=RegionId,InstanceId,IpAddress,Status,Bandwidth,InternetChargeType
+  --output cols=RegionId,Name,AllocationId,IpAddress,Status,Bandwidth,ExpiredTime
 
 aliyun ecs DescribeSecurityGroups \
   --output cols=SecurityGroupId,SecurityGroupName,VpcId,ResourceGroupId,Description
