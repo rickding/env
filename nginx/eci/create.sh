@@ -16,8 +16,8 @@ aliyun eci CreateContainerGroup \
   --Container.1.Name nginx \
   --Container.1.Image registry-vpc.cn-shanghai.aliyuncs.com/hellodock/nginx:latest \
   --Container.1.ImagePullPolicy Always \
-  --Container.1.Cpu 2 \
-  --Container.1.Memory 8 \
+  --Container.1.Cpu 1 \
+  --Container.1.Memory 4 \
   --Container.1.Port.1.Protocol TCP \
   --Container.1.Port.1.Port 80 \
   --Container.1.Port.2.Protocol TCP \
