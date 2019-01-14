@@ -32,6 +32,10 @@ netstat -ntlp
 ps -ef | grep nginx
 kill pid
 
+# disk
+df -h
+lsblk
+
 # owner and user group
 ls -al ./
 cat /etc/group
