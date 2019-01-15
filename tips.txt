@@ -103,3 +103,8 @@ docker tag xxx:latest registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
 docker push registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
 
 docker pull registry.cn-shanghai.aliyuncs.com/xxx/xxx:latest
+
+# copy files: scp -r xxx xxx
+scp /d/work/software/os/redhat-production.vdi root@47.99.140.143:/root/redhat6.5-wls10.3.6-jdk7-121-win10.vdi
+
+scp root@47.99.140.143:/root/redhat6.5-wls10.3.6-jdk7-121-win10.vdi ./
