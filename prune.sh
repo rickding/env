@@ -1,12 +1,15 @@
 #!/bin/bash
 
 # docker
-docker container prune
-docker image prune
-docker network prune
+# docker container prune -f
+# docker image prune -f
+# docker network prune -f
+# docker volume prune -f
 
+# docker system prune -f
+docker system prune -f --volume
+
+docker volume ls
 docker network ls
 docker images
-docker container ps
-
-docker info
+docker ps
