@@ -7,7 +7,7 @@
 # docker volume prune -f
 
 # docker system prune -f
-docker system prune -f --volume
+docker system prune -f --volumes
 
 docker volume ls
 docker network ls

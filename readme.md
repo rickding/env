@@ -1,30 +1,24 @@
 # Env
 - dba:8000
 - api:8011
-- web-admin:8010
+- admin:8010
 
 - srv:8001
-- task: Celery, task_mgr:5555
+- task: Celery, task_mgr:5555 flower
 
 - db:3306 MySQL, db_mgr:8080
 - cache:6379 Redis
-- mq:5672 RabbitMQ, mq_mgr:15672
+- mq:61616 ActiveMQ, mq_mgr:8161
 
 
 # Tech stack:
-- gitee.com, github.com, GitBash/SourceTree
+- github.com, code.aliyun.com, gitee.com
 - Aliyun, Ubuntu, Nginx
 - Docker, Compose, Swarm
 
-- Django: dba(PyCharm, Python, MySQL), srv(Celery, Redis, RabbitMQ)
-- SpringBoot: api(IDEA, Java, MyBatis, Redis, RabbitMQ, JUnit, Postman, Maven)
-- Node: admin(VisualCode, JavaScript, Fetch)
-
-
-# CI:
-- Jira, Fecru(Fisheye + Crucible)
-- Jenkins, admin/superuser, 4958cff2610544ba8d3d072605761c67
-- http://localhost:8080/
+- Django: dba(PyCharm, Python, MySQL), srv(Celery, Redis, ActiveMQ)
+- SpringBoot: api(IDEA, Java, MyBatis Plus, Redis, ActiveMQ, JUnit, Postman, Swagger)
+- Node: admin(VSCode, JavaScript)
 
 
 # https
