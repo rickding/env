@@ -1,17 +1,13 @@
 #!/bin/bash
 
-apt -y install git
+cat ~/.ssh/id_rsa.pub
 
 # add key
-ls -al ~/.ssh
-
-ssh-keygen -t rsa -b 4096 -C "dingxl18@qq.com"
-
-eval $(ssh-agent -s)
-ssh-add ~/.ssh/id_rsa
+ssh-keygen -t rsa -C "dingxl18@qq.com"
 
 cat ~/.ssh/id_rsa.pub
 clip < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
 
 ssh -T git@gitee.com
 ssh -T git@github.com
