@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for REPO in env doc
+for REPO in env doc toutiao
 do
     echo "commit: " $REPO
     cd $REPO
