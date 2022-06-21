@@ -1,0 +1,24 @@
+# add the following lines to the end.
+# gedit /etc/apt/sources.list
+
+# https://lug.ustc.edu.cn/wiki/mirrors/help/ubuntu
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ xenial main main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+# deb-src https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+
+# https://blog.csdn.net/TJH_I_CAN/article/details/80235747
+deb http://mirrors.163.com/ubuntu/ precise main universe restricted multiverse
+# deb-src http://mirrors.163.com/ubuntu/ precise main universe restricted multiverse
+deb http://mirrors.163.com/ubuntu/ precise-security universe main multiverse restricted
+# deb-src http://mirrors.163.com/ubuntu/ precise-security universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ precise-updates universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ precise-proposed universe main multiverse restricted
+# deb-src http://mirrors.163.com/ubuntu/ precise-proposed universe main multiverse restricted
+deb http://mirrors.163.com/ubuntu/ precise-backports universe main multiverse restricted
+# deb-src http://mirrors.163.com/ubuntu/ precise-backports universe main multiverse restricted
+# deb-src http://mirrors.163.com/ubuntu/ precise-updates universe main multiverse restricted

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for REPO in api admin deploy pc app env doc HelloDocker HelloJava HelloPython StarterAdmin StarterApi StarterDeploy toutiao
+for REPO in api admin deploy doc
 do
     echo "fetch: " $REPO
 
