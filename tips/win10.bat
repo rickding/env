@@ -5,4 +5,7 @@ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /nores
 wsl --set-default-version 2
 
 ## 增加开机启动
+
 C:\Users\pc1\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
